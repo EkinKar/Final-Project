@@ -8,5 +8,4 @@ public class Sivic extends Car {
     public int cost() {
         return 50000;
     }
-
 }

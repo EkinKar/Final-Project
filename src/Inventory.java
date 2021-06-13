@@ -4,7 +4,7 @@ public class Inventory { // Inventory class, includes an array list to add the v
 
        static ArrayList<Vehicle> vehicles = new ArrayList<>(); // Array list to add vehicles in it.
        static int total_price; // Total price of all vehicles.
-       static int car_amount; // Car amount in the vehicles array list.
+       static int car_amount; // Car amount in the "vehicles" array list.
        static int motorbike_amount; // Motorbike amount in the vehicles array list.
 
        public static void printer(){ // A method that prints each element in the vehicles arraylist with it's properties.

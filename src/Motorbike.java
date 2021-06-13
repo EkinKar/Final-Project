@@ -1,5 +1,6 @@
 public abstract class Motorbike extends Vehicle {
 
+    // Forces all motorbikes to have a cost function.
     public abstract int cost();
 
     public void set_seat_heating() {
