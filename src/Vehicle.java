@@ -8,11 +8,13 @@ public abstract class Vehicle {
     boolean sun_roof;
     boolean seat_heating;
 
+    // common attribute of all current vehicles.
     public void set_abs() {
         total_vehicle_price += 5000;
         abs = true;
     }
 
+    // Abstract classes to help with catching errors.
     public abstract void set_airbag();
     public abstract void set_music_system();
     public abstract void set_sun_roof();

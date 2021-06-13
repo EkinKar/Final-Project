@@ -8,6 +8,7 @@ public abstract class Motorbike extends Vehicle {
     }
 
     @Override
+    // Invalid options for the motorcycle class.
     public void set_airbag() {
     }
 

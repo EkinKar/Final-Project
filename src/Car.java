@@ -1,5 +1,6 @@
 public abstract class Car extends Vehicle {
 
+    // Forces all cars to have a cost function.
     abstract public int cost();
 
     public void set_music_system() {
@@ -18,6 +19,7 @@ public abstract class Car extends Vehicle {
     }
 
     @Override
+    // Invalid option for the Car class.
     public void set_seat_heating() {
     }
 }
