@@ -1,7 +1,7 @@
 // The exception class.
 public class InvalidOptionException extends Exception{
 
-    public InvalidOptionException(){
-        super("Invalid option, this option won't be added.");
+    public InvalidOptionException(String s){
+        super(s);
     }
 }

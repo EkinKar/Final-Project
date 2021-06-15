@@ -2,6 +2,7 @@ public abstract class Vehicle {
 
     int total_vehicle_price = 0;
     String model_name;
+    static boolean validation = true;
     boolean airbag;
     boolean abs;
     boolean music_system;
@@ -19,4 +20,10 @@ public abstract class Vehicle {
     public abstract void set_music_system();
     public abstract void set_sun_roof();
     public abstract void set_seat_heating();
+
+    public static void validate() throws InvalidOptionException {
+        if (!validation){
+            throw new InvalidOptionException("Invalid option won't be added to the vehicle.");
+        }
+    }
 }

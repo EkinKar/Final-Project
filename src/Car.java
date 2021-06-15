@@ -3,6 +3,11 @@ public abstract class Car extends Vehicle {
     // Forces all cars to have a cost function.
     abstract public int cost();
 
+    // Resets the validation value to true.
+    public Car(){
+        validation = true;
+    }
+
     public void set_music_system() {
         total_vehicle_price += 1000;
         music_system = true;
@@ -21,5 +26,6 @@ public abstract class Car extends Vehicle {
     @Override
     // Invalid option for the Car class.
     public void set_seat_heating() {
+        validation = false;
     }
 }
