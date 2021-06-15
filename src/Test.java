@@ -1,7 +1,7 @@
 public class Test {
     public static void main (String [] args) {
 
-        Car car1 = new Sivic();
+        Car car1 = new Sivic(); // creating a new Sivic.
         car1.set_abs();
         car1.set_music_system();
         car1.set_airbag();

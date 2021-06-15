@@ -43,6 +43,6 @@ public class Inventory { // Inventory class, includes an array list to add the v
                }
            }
            System.out.println("TOTAL: " + (car_amount+motorbike_amount) + " Vehicles including " + car_amount+
-                   " cars and " + motorbike_amount + " motorbikes having total price of " + total_price + " TL.");
+                   " cars and " + motorbike_amount + " motorbikes having a total price of " + total_price + " TL.");
        }
 }

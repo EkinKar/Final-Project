@@ -3,7 +3,7 @@ public abstract class Motorbike extends Vehicle {
     // Forces all motorbikes to have a cost function.
     public abstract int cost();
 
-    // Resets the validation value to true.
+    // Resets the validation value to true each time a new Motorbike is constructed.
     public Motorbike(){
         validation = true;
     }

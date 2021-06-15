@@ -3,7 +3,7 @@ public abstract class Car extends Vehicle {
     // Forces all cars to have a cost function.
     abstract public int cost();
 
-    // Resets the validation value to true.
+    // Resets the validation value to true each time a new Car is constructed.
     public Car(){
         validation = true;
     }
