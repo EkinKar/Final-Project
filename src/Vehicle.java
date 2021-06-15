@@ -21,7 +21,7 @@ public abstract class Vehicle {
     public abstract void set_sun_roof();
     public abstract void set_seat_heating();
 
-    public static void validate() throws InvalidOptionException {
+    public static void validate() throws InvalidOptionException { // checks if the car is constructed with valid options.
         if (!validation){
             throw new InvalidOptionException("Invalid option won't be added to the vehicle.");
         }
